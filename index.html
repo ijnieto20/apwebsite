@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #151515;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #FF4000;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #151515;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ABOUT ME</h1>
+  <p>Advanced Website</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="apwebsite2.html">About Me</a>
+  <a href="Hobby1.html" style="float:right">Hobby</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>What is this site about?</h2>
+      <h5>Picture of Isaac Nieto</h5>
+      <div class="img" style="height:200px;"> 
+<IMG SRC="littleme.png" height="160px" width="190px">
+</div>
+      <p>This is Isaac Nieto at 4 years old..</p>
+      <p>Who would've known what kinds of things this kid could do. This website will dive a little into what kinds of things have happened to this kid. I was born November 25th in Colton, California. </p><p> At the age of 3 went to St. George School to spend the next 10 years, working to get to high school. Along the wrong their may have been bumps and bruises. But ultimately, I had achieved the title of valedictorian for my 8th grade class. Throughout my highschool year, a lot of things have happened. There is only more to come. Working with my mother as a baker on the weekends is a hard task, and sometimes it can be frustrating. Throughout my growing years I have struggled, but onoly good can come out of struggling. I love my life and wouldnt give anything in  the world to restart. I am now enrolled in a Junior Volunteer Program at SARH, which will help educate me further in my future field of medicine. Some things about me, that most people dont know. Is that I love to game, I usually play Fortnite, or League of Legends. Both games that I enjoy very much playing with my friends on the weekends. I have one sister, who I am very close too. In the 3rd grade. I enjoy helping her with her softball practices, and shaping her into a better person.
+    </div>
+    <div class="card">
+      <h2>Doing Big Things</h2>
+      <div class="img" style="height:200px;">
+<IMG SRC="surgeon.jpg" height="160px" width="190px" title="workbadge" alt="oops">
+</div>
+      <p>Aspiring to be a surgeon when he is grown up first gains experience by volunteering in a hospital. Click on the Hobby Link on top, to find out more about his hobbies and how he is going about achieving his goals. I am striving to be a surgeon as some people know, and this means years of hardwork and dedication. Using the skills gained throughout my years of school I am going to enter the Field of Medicine.</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="img" style="height:100px;">
+<IMG SRC="aboutme.png" title="aboutme" height="100px" width="100px">
+</div>
+   <p> I was born on November 25th, 2001 I am currently 16 years old. I love to be involved and excercise my athleticism, I am currently wrestling, and pole vaulting for Damien High School. In my up and coming years, hope to attend Baylor University and continue in my dream to work in the field of medicine. I enjoy working with people. </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="img"><p><IMG SRC="backflip.gif" title="backgflip" height="200px" width="200px"></p></div>
+     
+    </div>
+    <div class="card">
+      <h3>Accomplishments</h3>
+      <p>Use the link above in the navigation bar to find out some</p><p> more interesting facts and stories about me!</p>
+<p>At the age of 7 I was admitted into the GATE program, but didnt want to enter lol. </p><p>In 8th grade I was valedictorian of my class.</p><p> I was offered a New York National Merit Scholarship</p> <p>Went to the Junior Olympics at the age of 14 </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>By: Isaac Nieto Period 1</h2>
+</div>
+
+</body>
+</html>
+

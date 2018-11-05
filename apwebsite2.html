@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #151515;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #FF4000;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #151515;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>ABOUT ME</h1>
+  <p>Advanced Website</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="apwebsite2.html">About Me</a>
+  <a href="Hobby1.html" style="float:right">Hobby</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>About Isaac Nieto</h2>
+      <h5>What does Isaac Nieto enjoy doing?</h5>
+      <div class="img" style="height:200px;"> 
+<IMG SRC="league.jpg" title="gameiplaywithfriends" alt="oops" height="160px" width="190px">
+</div>
+      <p> I enjoy playing video games with friends, hanging out with my buds, and being a good role model for my sister. I enjoy helping my little sister with softball. Whether it be critiquing her swing, or just give her support.
+    </div>
+    <div class="card">
+      <h2>Birth and Origin</h2>
+      <div class="img" style="height:200px;">
+<IMG SRC="elsalvador.png" height="160px" width="190px" title="placeoflineage" alt="oops">
+</div>
+      <p>I was born November 25th, 2001 at Colton Hospital. I have 1 sister, and am currently 16 years old. I am Cuban (from my dads side), Mexican, and Salvadorian (from my moms side). I come from a wide range of the world and think this is a very special thing as I am invested in different cultures. I can speak Spanish, but not fluently. I understand stand the Spanish Language Fully. I am also learning Chinese in school and am currently enrolled in Mandarin 3. I love how my life is headed, and cant wait to see what is instore for me.</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Taking on Sports</h2>
+      <div class="img" style="height:150px;"> 
+<IMG SRC="sports.jpg" height="100px" width="100px" title="sports" alt="oops">
+</div>
+<p>I played travel ball baseball for 13 years. I am now currently wrestling. During the spring, and pole vault for our track team.</p>
+</div>
+    </div>
+    <div class="card">
+      <h3>I am also a Baker:</h3>
+       <div class="img" style="height:150px;"> <IMG SRC="baker.jpg" height="100px" width="100px" title="baker" alt="oops">
+
+     
+    </div>
+    <div class="card">
+      <h3>Things I enjoy</h3>
+      <p>I love food, all kinds of food. I have yet to find a food that I do not like or can enjoy. If I had to pick a favorite food, it would most likely be Pho, or Ramen. This meal seems to always hit the spot on rainy days.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
